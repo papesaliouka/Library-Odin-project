@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Welcome to my Library</h1>
+    <div class="tableau" >
+    </div>
+    <button class="btn" id="add-new-book"> Add New Book</button>
+    <div class="overlay" hidden>
+        <div class="form-container">
+            <h3>Add Bokkmark</h3>
+            <form id="form" class='form' >
+                <div class="group">
+                    <label for="title">Add The Book title</label>
+                    <input type="text" name="tilte" id="title" placeholder="Add the book title">
+                </div>
+                <div class="group">
+                    <label for="author">Add The Book Author</label>
+                    <input type="text" name="tilte" id="author" placeholder="Add the book author">  
+                </div>
+                <div class="group">
+                    <label for="pages">Add The number of pages</label>
+                    <input type="text" name="tilte" id="pages" placeholder="Add the book pages">
+                </div>
+                <div class="group">
+                    <label for="read">Already read</label>
+                    <input type="text" name="tilte" id="read" placeholder=" true or false">
+                </div>
+                <div class="button-container">
+                    <button id="submit">Save</button>
+                    <button id="exit" type="reset">Exit</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
